@@ -1,0 +1,11 @@
+DEPENDENCIES
+  c1
+    path: ../c1
+  c3
+    path: .
+    metadata: true
+
+GRAPH
+  c1 (1.0.0)
+  c3 (2.0.0)
+    c1 (>= 0.0.0)
