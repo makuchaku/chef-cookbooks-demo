@@ -1,0 +1,1 @@
+default['c2_var'] = 'this is c2_var'
