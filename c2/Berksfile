@@ -1,5 +1,0 @@
-source 'https://supermarket.chef.io'
-
-metadata
-
-cookbook "c1", path: "../c1"
