@@ -11,5 +11,6 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[my_mongo::default]
+      - recipe[my_mongo::install_mongo]
+      - recipe[my_mongo::generate_mongoid_yml]
     attributes:
