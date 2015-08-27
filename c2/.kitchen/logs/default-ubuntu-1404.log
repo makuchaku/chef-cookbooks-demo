@@ -1,26 +1,8 @@
-I, [2015-08-27T10:42:21.713356 #92902]  INFO -- default-ubuntu-1404: -----> Converging <default-ubuntu-1404>...
-I, [2015-08-27T10:42:21.714210 #92902]  INFO -- default-ubuntu-1404: Preparing files for transfer
-I, [2015-08-27T10:42:21.714309 #92902]  INFO -- default-ubuntu-1404: Preparing dna.json
-I, [2015-08-27T10:42:21.714890 #92902]  INFO -- default-ubuntu-1404: Resolving cookbook dependencies with Berkshelf 3.3.0...
-I, [2015-08-27T10:42:21.913176 #92902]  INFO -- default-ubuntu-1404: Removing non-cookbook files before transfer
-I, [2015-08-27T10:42:21.916262 #92902]  INFO -- default-ubuntu-1404: Preparing solo.rb
-I, [2015-08-27T10:42:22.040410 #92902]  INFO -- default-ubuntu-1404: -----> Chef Omnibus installation detected (install only if missing)
-I, [2015-08-27T10:42:22.055010 #92902]  INFO -- default-ubuntu-1404: Transferring files to <default-ubuntu-1404>
-I, [2015-08-27T10:42:23.299679 #92902]  INFO -- default-ubuntu-1404: Starting Chef Client, version 12.4.1
-I, [2015-08-27T10:42:24.703339 #92902]  INFO -- default-ubuntu-1404: Compiling Cookbooks...
-I, [2015-08-27T10:42:24.708102 #92902]  INFO -- default-ubuntu-1404: Converging 4 resources
-I, [2015-08-27T10:42:24.709132 #92902]  INFO -- default-ubuntu-1404: Recipe: c2::default
-I, [2015-08-27T10:42:24.719449 #92902]  INFO -- default-ubuntu-1404:   * log[C2 default] action write
-I, [2015-08-27T10:42:24.719960 #92902]  INFO -- default-ubuntu-1404:   
-I, [2015-08-27T10:42:24.721080 #92902]  INFO -- default-ubuntu-1404:   * log[this is c2_var] action write
-I, [2015-08-27T10:42:24.721480 #92902]  INFO -- default-ubuntu-1404:   
-I, [2015-08-27T10:42:24.722000 #92902]  INFO -- default-ubuntu-1404: Recipe: c1::default
-I, [2015-08-27T10:42:24.723381 #92902]  INFO -- default-ubuntu-1404:   * log[C1 default] action write
-I, [2015-08-27T10:42:24.723914 #92902]  INFO -- default-ubuntu-1404:   
-I, [2015-08-27T10:42:24.724938 #92902]  INFO -- default-ubuntu-1404:   * log[this is c1_var] action write
-I, [2015-08-27T10:42:24.728637 #92902]  INFO -- default-ubuntu-1404:   
-I, [2015-08-27T10:42:24.728800 #92902]  INFO -- default-ubuntu-1404: 
-I, [2015-08-27T10:42:24.729023 #92902]  INFO -- default-ubuntu-1404: Running handlers:
-I, [2015-08-27T10:42:24.729253 #92902]  INFO -- default-ubuntu-1404: Running handlers complete
-I, [2015-08-27T10:42:24.729466 #92902]  INFO -- default-ubuntu-1404: Chef Client finished, 4/4 resources updated in 1.43250241 seconds
-I, [2015-08-27T10:42:24.885409 #92902]  INFO -- default-ubuntu-1404: Finished converging <default-ubuntu-1404> (0m3.16s).
+I, [2015-08-27T20:15:50.180257 #95058]  INFO -- default-ubuntu-1404: -----> Destroying <default-ubuntu-1404>...
+I, [2015-08-27T20:15:50.189523 #95058]  INFO -- default-ubuntu-1404: /Users/Mayank/.rvm/gems/ruby-2.1.5/gems/mixlib-shellout-2.1.0/lib/mixlib/shellout/unix.rb:338: warning: Insecure world writable dir /usr/local in PATH, mode 040777
+I, [2015-08-27T20:15:50.406728 #95058]  INFO -- default-ubuntu-1404: /opt/vagrant/embedded/gems/gems/vagrant-1.7.4/lib/vagrant/pre-rubygems.rb:31: warning: Insecure world writable dir /usr/local in PATH, mode 040777
+I, [2015-08-27T20:15:50.954494 #95058]  INFO -- default-ubuntu-1404: /opt/vagrant/embedded/gems/gems/bundler-1.10.5/lib/bundler/shared_helpers.rb:78: warning: Insecure world writable dir /usr/local in PATH, mode 040777
+I, [2015-08-27T20:15:53.414220 #95058]  INFO -- default-ubuntu-1404: ==> default: Forcing shutdown of VM...
+I, [2015-08-27T20:15:54.552269 #95058]  INFO -- default-ubuntu-1404: ==> default: Destroying VM and associated drives...
+I, [2015-08-27T20:15:55.667673 #95058]  INFO -- default-ubuntu-1404: Vagrant instance <default-ubuntu-1404> destroyed.
+I, [2015-08-27T20:15:55.677569 #95058]  INFO -- default-ubuntu-1404: Finished destroying <default-ubuntu-1404> (0m5.49s).
