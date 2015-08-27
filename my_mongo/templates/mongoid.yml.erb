@@ -1,0 +1,14 @@
+<% ip = "127.0.0.1" %>
+<% if node[:opsworks] and node[:opsworks][:instance] and node[:opsworks][:instance][:private_ip] %>
+  <% ip = node[:opsworks][:instance][:private_ip] %>
+<% end %>
+
+production:
+  sessions:
+    default:
+      hosts:
+        - <%= ip %>:<%= node['mongodb']['config']['port'] %>
+      database: production
+  options:
+  consistency: :eventual
+  max_retries_on_connection_failure: 5
