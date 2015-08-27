@@ -3,8 +3,6 @@ log(node["c3_var"])
 
 include_recipe("c1")
 
-system("apt-get update")
-
 package("git") { 
   action(:install) 
 }
